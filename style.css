@@ -74,6 +74,20 @@ li a{
     position:relative;
     top:-25px;
 }
+@media(max-width:700px){
+   .logo a{
+    position:relative;
+    right:3rem;
+    top:0.8rem;
+   }
+   .logo-text{
+   
+    position:relative;
+    top: -2.1rem;
+    left:-0.9rem;
+    }
+}
+
 
 
 /*section design*/
@@ -93,6 +107,7 @@ li a{
 /*responsive version*/
 @media(max-width:700px){
     .c1{
+        background-position:center;
         top:-60px;
     }
 }
